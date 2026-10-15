@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17121e">
+  <meta name="description" content="The Irene Archive. A little guide to cards, constellations and the world between them. Commands, lore, characters and community.">
+  <title>Irene Bot · The Archive</title>
+  <link rel="icon" type="image/svg+xml" href="assets/sigil.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" charset="utf-8" defer></script>
+  <script src="app.js" charset="utf-8" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="mobile-bar"><a class="wordmark" href="#home">✦ Irene Bot<span>THE ARCHIVE</span></a><button id="mobile-toggle" aria-expanded="false" aria-controls="sidebar" aria-label="Open navigation">☰</button></div>
+  <aside id="sidebar" class="sidebar" aria-label="Main navigation">
+    <a class="brand" href="#home"><span class="brand-sigil">✦</span><span class="brand-name">Irene Bot</span><span class="brand-caption">THE ARCHIVE</span></a>
+    <div class="sidebar-rule"><span>⊹</span></div>
+    <p class="nav-label">A LITTLE GUIDANCE</p>
+    <nav id="navigation"></nav>
+    <button class="search-trigger" id="open-search"><span>⌕ &nbsp; Search in The Archive</span><kbd>/</kbd></button>
+    <div class="sidebar-bottom"><span class="small-star">✧</span><p id="sidebar-quote"></p><span class="sidebar-note">A world worth getting lost in.</span></div>
+  </aside>
+  <div class="site-body">
+    <header class="topbar"><span id="breadcrumb">THE ARCHIVE WELCOMES YOU</span><div><span class="edition" id="edition"></span><a class="community-link" id="community-link" href="#rules">Official Server ↗</a></div></header>
+    <main id="main" tabindex="-1"></main>
+    <footer><a href="#home">✦ Irene Archive</a><p id="footer-copy"></p><a href="#rules">Read with kindness ⊹</a></footer>
+  </div>
+  <dialog id="search-dialog" aria-labelledby="search-heading"><div class="dialog-head"><h2 id="search-heading">Follow a little curiosity.</h2><button data-close-dialog aria-label="Close search">×</button></div><label class="sr-only" for="global-search">Search commands, lore, characters and rules</label><input id="global-search" type="search" placeholder="A command, a character, a story…" autocomplete="off"><div id="search-results" aria-live="polite"></div><p class="micro">⊹ Search through the whole archive. Escape to close.</p></dialog>
+  <dialog id="reader-dialog" aria-labelledby="reader-title"><div class="dialog-head"><span class="eyebrow" id="reader-kind"></span><button data-close-dialog aria-label="Close reading">×</button></div><h2 id="reader-title"></h2><div id="reader-body"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript">Please enable JavaScript to explore the archive. The editable text is available in content.js.</div></noscript>
+</body>
+</html>
