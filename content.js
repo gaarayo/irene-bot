@@ -20,7 +20,7 @@ window.IRENE = {
   navigation: [
     {id:'home',label:'Welcome',symbol:'✧'}, {id:'commands',label:'Command grimoire',symbol:'✦'},
     {id:'lore',label:'Stories & lore',symbol:'✧'}, {id:'characters',label:'Characters',symbol:'✦'},
-    {id:'rules',label:'Community rules',symbol:'✧'}, {id:'support',label:'Ko-Fi & Pix',symbol:'✦'},
+    {id:'rules',label:'Community rules',symbol:'✧'}, {id:'support',label:'Ko-Fi & PIX',symbol:'✦'},
     {id:'staff',label:'Join the staff',symbol:'✧'}
   ],
   pages: {
