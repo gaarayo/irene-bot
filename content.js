@@ -114,8 +114,8 @@ window.IRENE = {
     pix:{amount:'Simples, rápido e mais acessível. Pague apenas 12 reais.',contactUrl:'https://discord.com/channels/1554278772964986911/1554983390988599347',instructions:[
       'Vá até o canal de tickets e informe que gostaria de comprar o Ko-Fi com o PIX.',
       'Sasa, Guvo ou Bea irão te passar as informações necessárias.',
-      'Faça o pix e envie o comprovante no ticket.',
-      'Após os trinta dias, Sasa, Guvo ou Bea entrarão em contato para garantir a renovação ou cancelamento.'
+      'Faça o PIX e envie o comprovante no ticket.',
+      'Após o final dos trinta dias, Sasa, Guvo ou Bea entrarão em contato para garantir a renovação ou o cancelamento.'
     ]}
   },
   staff: {
